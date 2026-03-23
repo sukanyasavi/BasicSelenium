@@ -10,7 +10,7 @@ public class WebDriverBasics {
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("http://www.google.com");
 		String title = driver.getTitle();
-		System.out.println(title);
+		System.out.println(title); //prints the title of the page
 		
 		if(title.equals("Google"))
 		{
